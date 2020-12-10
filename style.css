@@ -9,23 +9,16 @@
 body{
     font-size: 20px;
 }
-.veidi > li, .veidi > ul  {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+.veidi{
+display:flex;
+flex-direction: column;
+align-items: center;
 }
-::marker {
-    unicode-bidi: isolate;
-    font-variant-numeric: tabular-nums;
-    text-transform: none;
-    text-indent: 0px !important;
-    text-align: start !important;
-    text-align-last: start !important;
+li{
+    margin-left: -200px;
 }
 .gimenes{
     text-decoration: underline;
-
-
 }
 #augi td, #augi th {
     border: 1px solid #ddd;
@@ -33,6 +26,7 @@ body{
 }
 .nosaukumi{
     margin-bottom: 20px;
+    margin-left: 35px;
 }
 .tabula{
     display: flex;
@@ -41,4 +35,23 @@ body{
 p{
     margin-left: 35px;
     width: 180vh;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    margin-top: 30px;
+    height: 100px;
+    background-color: rgb(169, 252, 220);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+span{
+    height: 15px;
+    width: 30px;
+}
+.adv{
+    text-decoration: none;
 }
